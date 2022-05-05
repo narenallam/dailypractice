@@ -23,7 +23,7 @@ app = Flask(__name__)
 
 # App Configuration - Shouldnot be hard coded
 app.config['SECRET_KEY'] = '497a24dbcecaee8c1dfa84f3a5818f3f'
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://naren:Python123@localhost/classicmodels"
+app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://naren:Python123@192.168.161.128/classicmodels"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
 # engine, suppose it has two tables 'user' and 'address' set up

@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 app.config['SECRET_KEY'] = 'bb75acb5adb1a96ce3d491f0b2db5683'
-app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://naren:Python123@localhost/classicmodels"
+app.config['SQLALCHEMY_DATABASE_URI'] = "mysql+pymysql://naren:Python123@192.168.161.128/classicmodels"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 
 # connects Flask with SQlAlchemy ORM
